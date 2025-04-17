@@ -1,0 +1,710 @@
+@media (max-width: 320px) {
+    .header {
+        width: 100%;
+        min-width: 320px;
+        height: 620px;
+        background-image: url('../images/bc_header_mobil.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__boxNavbar {
+            display: none;
+        }
+
+        &__boxNavbar_mobil {
+            /* width: 292px; */
+            width: 100%;
+            height: 72px;
+            background: rgb(19, 61, 141);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__navbarBox_mobil {
+            width: 292px;
+            /* width: 100%; */
+            height: 36px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__logo_mobil {
+            width: 96.7px;
+            height: 30px;
+        }
+
+        &__menu_mobil {
+            width: 27px;
+            height: 18px;
+
+        }
+
+        &__content {
+            width: 292px;
+            height: 338px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 120px;
+        }
+    }
+
+    .navbarBox_mobil {
+
+        &__boxLogo {
+            width: 96.7px;
+            height: 30px;
+        }
+
+        &__boxMenu {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .infoLeft {
+
+        &__title {
+            width: 292px;
+            height: 135px;
+            /* mobile/h/32l */
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: center;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+
+        &__text {
+            width: 292px;
+            height: 80px;
+            margin-top: 32px;
+            /* p/14m */
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            padding: 0px;
+            border: 2px solid transparent;
+        }
+
+        &__bottom {
+            width: 170px;
+            height: 51px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 140%;
+            letter-spacing: 5%;
+            margin-top: 40px;
+        }
+    }
+
+    .content {
+
+        &__infoLeft {
+            width: 292px;
+            height: 338px;
+            align-items: center;
+        }
+
+        &__infoRight {
+            display: none;
+        }
+    }
+
+    .main {
+        width: 100%;
+        min-width: 320px;
+
+        &__news {
+            width: 320px;
+            height: 1838px;
+        }
+
+        &__history {
+            width: 320px;
+            height: 1258px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__publications {
+            width: 320px;
+            height: 2538px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        &__projects {
+            width: 320px;
+            height: 1474px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+
+    .news {
+        /* width: 320px; */
+
+        &__bigBox {
+            width: 292px;
+            margin-top: 120px;
+        }
+
+        &__titleBox {
+            width: 292px;
+            height: 102px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 32px;
+            margin: 0 auto;
+        }
+
+        &__contentBox {
+            width: 292px;
+            height: 1416px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 32px;
+            margin-top: 80px;
+        }
+    }
+
+    .titleBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+
+        &__title {
+            /* mobile/h/32l */
+            width: 292px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(51, 51, 51);
+            font-family: 'Roboto';
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+
+        &__linkBox {
+            width: 292px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__link {
+            /* p/18b */
+            color: rgb(19, 61, 141);
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .history {
+
+        &__bigBox {
+            width: 320px;
+            margin-top: 120px;
+        }
+
+        &__title {
+            width: 292px;
+            height: 90px;
+            /* mobile/h/32l */
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0 auto;
+        }
+
+        &__boxContent {
+            width: 292px;
+            height: 848px;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .boxContent {
+
+        &__leftBox {
+            width: 292px;
+            height: 848px;
+        }
+    }
+
+    .publications {
+
+        &__bigBox {
+            width: 292px;
+            height: 2298px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 120px;
+            margin-left: 14px;
+            margin-right: 14px;
+            margin-bottom: 120px;
+        }
+
+        &__titleBox {
+            width: 292px;
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        &__contentBox {
+            margin-top: 80px;
+            width: 292px;
+            height: 2108px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 48px;
+        }
+
+        &__article {
+            width: 292px;
+            min-height: 486px;
+            max-height: 506px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 0 auto;
+        }
+
+        &__img1 {
+            display: none;
+        }
+
+        &__img1_mobile {
+            display: block;
+        }
+
+        &__img2 {
+            display: none;
+        }
+
+        &__img2_mobile {
+            display: block;
+        }
+
+        &__img3 {
+            display: none;
+        }
+
+        &__img3_mobile {
+            display: block;
+        }
+
+        &__img4 {
+            display: none;
+        }
+
+        &__img4_mobile {
+            display: block;
+        }
+
+        &__textDate {
+            margin-top: 30px;
+        }
+
+        &__bigText {
+            width: 292px;
+            height: 132px;
+            margin-top: 12px;
+        }
+
+        &__link {
+            width: 292px;
+            height: 20px;
+            margin-top: 12px;
+        }
+    }
+
+    .projects {
+
+        &__bigBox {
+            width: 292px;
+            height: 1234px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__titleBox {
+            width: 290px;
+            height: 199px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 120px;
+        }
+
+        &__title {
+            width: 290px;
+            height: 50px;
+            /* h/36r--ttu-ls5 */
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__subtitleBox {
+            width: 144px;
+            height: 109px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        &__boxContent {
+            width: 292px;
+            height: 955px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__pictureBox {
+            width: 294px;
+            height: 324px;
+            background-image: url('../images/ship-project_mobile.png');
+        }
+
+        &__infoBox {
+            width: 294px;
+            height: 631px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+
+    .pictureBox {
+
+        &__content {
+            width: 270px;
+            height: 208px;
+            margin-left: 12px;
+            margin-bottom: 13px;
+        }
+    }
+
+    .infoBox {
+
+        &__boxContent {
+            width: 294px;
+            height: 631px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 40px 0px 0px 0px;
+        }
+
+        &__contentWrapper {
+            width: 292px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__topInfo {
+            width: 270px;
+            height: 224px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        &__bottomInfo {
+            width: 270px;
+            height: 204px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 32px;
+        }
+    }
+
+    .topInfo {
+
+        &__leftBoxContent {
+            width: 270px;
+            height: 86px;
+        }
+    }
+
+    .leftBoxContent {
+
+        &__boxNumber {
+            width: 270px;
+            height: 56px;
+        }
+
+        &__text {
+            width: 270px;
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    .boxNumber {
+
+        &__number {
+            width: 157px;
+            height: 56px;
+            /* other/40b--ttu-ls5 */
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: left;
+            text-transform: uppercase;
+        }
+    }
+
+    .bottomInfo {
+
+        &__leftBoxContent {
+            width: 270px;
+            height: 86px;
+        }
+
+        &__rightBoxContent {
+            margin-top: 32px;
+        }
+    }
+
+    .rightBoxContent {
+
+        &__text {
+            /* p/14m */
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    .ship_1 {
+        /* Rectangle 26 */
+        background-image: url('../images/ship_mobil.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .ship_2 {
+        /* Rectangle 26 */
+        background-image: url('../images/ship_mobil.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .ship_3 {
+        /* Rectangle 26 */
+        background-image: url('../images/ship_mobil.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .ship_4 {
+        /* Rectangle 26 */
+        background-image: url('../images/ship_mobil.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        width: 100%;
+        min-width: 320px;
+        height: 1089px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        &__logo {
+            width: 96.7px;
+            height: 30px;
+            margin-top: 65px;
+        }
+
+        &__bigBox {
+            width: 306px;
+            height: 889px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 24px;
+        }
+
+        &__aboutCompany {
+            width: 306px;
+            height: 172px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__title {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__textBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__contacts {
+            width: 214px;
+            height: 196px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &__adress {
+            width: 214px;
+            height: 115px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 15px;
+        }
+
+        &__SaintPetersburg {
+            width: 214px;
+            height: 60px;
+            text-align: center;
+        }
+
+        &__Moscow {
+            width: 214px;
+            height: 40px;
+            text-align: center;
+        }
+
+        &__contsctsText {
+            width: 214px;
+            height: 51px;
+            margin-top: 30px;
+        }
+
+        &__phone {
+            width: 214px;
+            height: 20px;
+            text-align: center;
+        }
+
+        &__email {
+            width: 214px;
+            height: 20px;
+            text-align: center;
+        }
+    }
+
+
+
+
+    /* --------------------------------------- */
+
+    .boxContent__rightBox {
+        display: none;
+    }
+
+}

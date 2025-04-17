@@ -1,0 +1,248 @@
+.headerContacts {
+    width: 100%;
+    height: 160px;
+    background: rgb(19, 61, 141);
+}
+
+.mainContacts {
+    width: 100%;
+    height: 983px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 90px;
+
+    &__bigBox {
+        width: 1296px;
+        height: 743px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__title {
+        /* h/32b--ttu-ls5 */
+        color: rgb(51, 51, 51);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__breadCrumbs {
+        width: 240px;
+        height: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    &__link {
+        /* p/13m */
+        color: rgb(51, 51, 51);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 13px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__boxContent {
+        width: 1296px;
+        height: 560px;
+        background-image: url('../images/maps.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__mapsInfo {
+        width: 274px;
+        height: 256px;
+        background: rgb(255, 255, 255);
+        margin-top: 45px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__cities {
+        width: 194px;
+        height: 37px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+
+    &__Moscau {
+        width: 78px;
+        height: 37px;
+        background: rgb(19, 61, 141);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* p/13m */
+        color: rgb(255, 255, 255);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 13px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 1px 0px transparent;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0px 1px 0px rgb(19, 61, 141);
+        }
+    }
+
+    &__sPetersburg {
+        width: 96px;
+        height: 37px;
+        background: rgba(19, 61, 141, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* p/13m */
+        color: rgb(255, 255, 255);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 13px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 1px 0px transparent;
+
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0px 1px 0px rgba(19, 61, 141, 0.5);
+        }
+    }
+
+    &__info {
+        width: 194px;
+        height: 114px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+
+    &__indicatorContent {
+        width: 194px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__indicatorImg {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__indicatorText {
+        /* p/14m */
+        width: 159px;
+        height: 40px;
+        color: rgb(51, 51, 51);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    &__phoneText {
+        /* p/14m */
+        color: rgb(51, 51, 51);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    &__phoneContent {
+        width: 194px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 17px;
+    }
+
+    &__phoneImg {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__mailContent {
+        width: 194px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 17px;
+    }
+
+    &__mailImg {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__mailText {
+        margin-left: 15px;
+    }
+
+    &__mailText a {
+        text-decoration: none;
+        /* p/14m */
+        color: rgb(51, 51, 51);
+        font-family: 'HelveticaNeueCyr_roman';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

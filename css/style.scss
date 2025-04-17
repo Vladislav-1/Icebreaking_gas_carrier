@@ -1,0 +1,1371 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/* .roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+} */
+
+.center {
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/rectangle_23.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__boxNavbar {
+        /* Frame 51 */
+        width: 1297px;
+        height: 132px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30;
+        padding: 0px;
+    }
+
+    &__boxNavbar_mobil {
+        display: none;
+    }
+
+    &__content {
+        width: 1296px;
+        height: 365px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 309px;
+    }
+}
+
+.boxNavbar {
+
+    &__topNavbar {
+        /* Frame 49 */
+        position: static;
+        width: 1294px;
+        height: 80px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0px 25px 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    &__contactInfo {
+        /* Frame 48 */
+        width: 294px;
+        height: 20px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* gap: 50; */
+        padding: 0px;
+        /* Inside Auto Layout */
+
+    }
+
+    &__text {
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    &__bottomNavbar {
+        /* Frame 50 */
+        width: 1297px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+
+    }
+}
+
+.topNavbar {
+
+    &__link {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.bottomNavbar {
+
+    &__link {
+        text-decoration: none;
+        /* p/16b--ttu--5% */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.content {
+
+    &__infoLeft {
+        /* Frame 62 */
+        width: 636px;
+        height: 365px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 50;
+        padding: 0px;
+    }
+
+    &__infoRight {
+        /* Frame 61 */
+        width: 526px;
+        height: 237px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: rgba(51, 51, 51, 0.3);
+    }
+}
+
+.infoLeft {
+
+    &__title {
+        /* Первый в мире ледокольный газовоз */
+        position: static;
+        width: 636px;
+        height: 168px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+
+        /* h/60l */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 60px;
+        font-weight: 300;
+        /* line-height: 140%; */
+        letter-spacing: 1px;
+        text-align: left;
+    }
+
+    &__text {
+        /* Et elementum penatibus lacinia eget ut amet lorem. Id lectus magna quis odio in. In mi vitae ultrices et luctus eu gravida tincidunt cras. Quisque pellentesque mollis ut sed. */
+        width: 496px;
+        height: 66px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px 0px 0px 30px;
+        border-left: 2px solid rgb(255, 255, 255);
+
+        /* Inside Auto Layout */
+
+        /* p/16m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+
+    &__bottom {
+        /* Frame 54 */
+        width: 170px;
+        height: 51px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10;
+        padding: 15px 30px 14px 30px;
+        /* red */
+        background: rgb(189, 0, 7);
+        border-bottom: 2px solid transparent;
+
+        /* Inside Auto Layout */
+        /* p/16b--ttu--5% */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+
+        &:hover {
+            cursor: pointer;
+            border-bottom: 2px solid rgb(253, 156, 159);
+        }
+    }
+}
+
+.infoRight {
+
+    &__title {
+        /* Танкер-газовоз СПГ «КАПИТАН ДАНИЛКИН» */
+        width: 456px;
+        height: 22px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* gap: 25;
+        padding: 30px 35px 35px 35px; */
+        margin-top: 30px;
+        margin-left: 35px;
+
+
+        /* Inside Auto Layout */
+        /* p/16b--ttu--5% */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 1px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__box {
+        /* Frame 60 */
+        width: 456px;
+        height: 125px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+
+    &__boxText {
+        /* Frame 58 */
+        width: 220px;
+        height: 125px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 15;
+    }
+
+    &__text {
+        /* p/14r */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        /* text-align: left; */
+    }
+}
+
+.boxText {
+
+    &__leftElem {
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__rightElem {
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.main {
+
+    &__news {
+        width: 1296px;
+        height: 777px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__history {
+        /* Rectangle 27 */
+        width: 100%;
+        height: 798px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        /* blue */
+        background: rgb(19, 61, 141);
+    }
+
+    &__publications {
+        width: 100%;
+        height: 900px;
+        background: rgb(255, 255, 255);
+    }
+
+    &__projects {
+        width: 100%;
+        height: 1040px;
+        /* background: rgba(30, 30, 30, 0.2); */
+        background: rgba(19, 61, 141, 0.5)
+    }
+
+
+}
+
+.news {
+
+    &__bigBox {
+        width: 1296px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 137px;
+    }
+
+    &__titleBox {
+        width: 1296px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__contentBox {
+        width: 1296px;
+        height: 330px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &__miniBox {
+        width: 306px;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.titleBox {
+
+    &__title {
+        /* Новости */
+        width: 1072px;
+        height: 50px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        /* h/36l */
+        color: rgb(51, 51, 51);
+        font-family: 'Roboto';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        text-decoration: none;
+        /* p/18b--ttu--5% */
+        color: rgb(19, 61, 141);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: right;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.miniBox {
+
+    &__button {
+        /* Frame 67 */
+        width: 149px;
+        height: 33px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* red */
+        background: rgb(189, 0, 7);
+        border: 1px solid rgb(189, 0, 7);
+        margin-top: 25px;
+        margin-left: 25px;
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+
+        &:hover {
+            cursor: pointer;
+            border-bottom: 1px solid rgb(253, 156, 159);
+        }
+    }
+
+    &__content {
+        width: 252px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 15px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    &__topContent {
+        /* p/16m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    &__bottomContent {
+        /* p/14r */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+}
+
+.history {
+
+    &__bigBox {
+        width: 1296px;
+        height: 623px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    &__title {
+        /* История компании */
+        width: 1072px;
+        height: 50px;
+
+        /* h/36l */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__boxContent {
+        width: 1296px;
+        height: 533px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.boxContent {
+
+    &__leftBox {
+        width: 526px;
+        height: 468px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    &__rightBox {
+        margin-left: 149px;
+        margin-top: 15px;
+        position: relative;
+        border: 1px dashed rgba(255, 255, 255, 0.5);
+    }
+
+    &__coordinate1 {
+        width: 30px;
+        height: 30px;
+        /* white */
+        border: 2px solid rgb(255, 255, 255);
+        /* red */
+        background: rgb(189, 0, 7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: -15px;
+        top: 366.5px;
+
+    }
+
+    &__text1 {
+        position: absolute;
+        left: 30px;
+        top: 365px;
+    }
+
+
+    &__coordinate2 {
+        position: absolute;
+        left: 161px;
+        top: 273px;
+    }
+
+    &__text2 {
+        position: absolute;
+        left: 140px;
+        top: 294px;
+    }
+
+    &__coordinate3 {
+        position: absolute;
+        left: 325px;
+        top: 180px;
+    }
+
+    &__text3 {
+        position: absolute;
+        left: 347px;
+        top: 171px;
+    }
+
+    &__coordinate4 {
+        position: absolute;
+        left: 435px;
+        top: 85px;
+    }
+
+    &__text4 {
+        position: absolute;
+        left: 415px;
+        top: 107px;
+    }
+
+    &__coordinate5 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: 2px solid rgb(255, 255, 255);
+        /* red */
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 591px;
+        top: -15px;
+    }
+
+    &__text5 {
+        position: absolute;
+        left: 524px;
+        top: -35px;
+    }
+
+    &__text {
+        /* h/24b */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__comment {
+        /* Frame 77 */
+        width: 496px;
+        height: 118px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: absolute;
+        left: 30px;
+        top: 409.5px;
+    }
+
+    &__commentBox {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap: 20px;
+
+        & img {
+            width: 10px;
+            height: 10px;
+            margin-bottom: 4px;
+        }
+    }
+
+    &__commentText {
+        /* p/16m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+    }
+}
+
+.leftBox {
+
+    &__text {
+        /* p/14r */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.11px;
+        text-align: left;
+    }
+}
+
+.publications {
+
+    &__bigBox {
+        width: 1296px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 150px;
+    }
+
+    &__titleBox {
+        width: 1296px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        /* h/36l */
+        color: rgb(51, 51, 51);
+        font-family: 'Roboto';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        /* p/18b--ttu--5% */
+        color: rgb(19, 61, 141);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: right;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+
+    &__contentBox {
+        width: 1296px;
+        height: 480px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__article {
+        width: 306px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__textDate {
+        /* p/14r */
+        color: rgb(51, 51, 51);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    &__bigText {
+        /* p/16b--ttu--5% */
+        color: rgb(51, 51, 51);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0.8px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        text-decoration: none;
+        /* p/14r */
+        color: rgb(19, 61, 141);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    &__img1_mobile {
+        display: none;
+    }
+
+    &__img2_mobile {
+        display: none;
+    }
+
+    &__img3_mobile {
+        display: none;
+    }
+
+    &__img4_mobile {
+        display: none;
+    }
+}
+
+.projects {
+
+    &__bigBox {
+        width: 1296px;
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    &__titleBox {
+        width: 1296px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    &__title {
+        width: 977px;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__subtitleBox {
+        width: 319px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__subtitle {
+        width: 144px;
+        height: 25px;
+        /* p/18b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: right;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        /* p/18b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: right;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__navbarGallery {
+        width: 135px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__cursorLeft {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(19, 61, 141);
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(255, 255, 255);
+
+            & img {
+                filter: brightness(0);
+            }
+        }
+    }
+
+    &__cursorRight {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(19, 61, 141);
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(255, 255, 255);
+
+            & img {
+                filter: brightness(0);
+            }
+        }
+    }
+
+    &__boxContent {
+        width: 1296px;
+        height: 600px;
+        display: flex;
+        margin-top: 80px;
+    }
+
+    &__pictureBox {
+        width: 706px;
+        height: 600px;
+        background-image: url('../images/ship_is_visible.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    &__infoBox {
+        width: 590px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: rgb(19, 61, 141);
+    }
+}
+
+.pictureBox {
+
+    &__content {
+        width: 468px;
+        height: 114px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 45px;
+        margin-bottom: 45px;
+    }
+
+    &__title {
+        /* h/24b-ttu-5ls */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        /* p/14r */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.infoBox {
+
+    &__boxContent {
+        width: 470px;
+        height: 490px;
+        margin: 55px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__contentWrapper {
+        width: 470px;
+        height: 222px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__topInfo {
+        width: 470px;
+        height: 106px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__bottomInfo {
+        width: 470px;
+        height: 86px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button {
+        width: 170px;
+        height: 51px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(255, 255, 255);
+        background: transparent;
+        /* p/16b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+
+        &:hover {
+            cursor: pointer;
+            color: rgb(19, 61, 141);
+            background: rgb(255, 255, 255);
+        }
+    }
+}
+
+.topInfo {
+
+    &__leftBoxContent {
+        width: 210px;
+        height: 106px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    &__rightBoxContent {
+        width: 210px;
+        height: 106px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.leftBoxContent {
+
+    &__boxNumber {
+        width: 210px;
+    }
+
+    &__text {
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.rightBoxContent {
+
+    &__boxNumber {
+        width: 210px;
+    }
+
+    &__text {
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.boxNumber {
+
+    &__number {
+        /* other/40b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        display: inline-block;
+        margin-left: 15px;
+    }
+}
+
+.ship_1 {
+    /* Rectangle 26 */
+    background-image: url('../images/ship_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ship_2 {
+    /* Rectangle 26 */
+    background-image: url('../images/ship_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ship_3 {
+    /* Rectangle 26 */
+    background-image: url('../images/ship_3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ship_4 {
+    /* Rectangle 26 */
+    background-image: url('../images/ship_4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    height: 442px;
+    background: rgb(19, 61, 141);
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+        width: 96.7px;
+        height: 30px;
+        margin-top: 65px;
+    }
+
+    &__bigBox {
+        width: 1296px;
+        height: 242px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    &__aboutCompany {
+        width: 306px;
+        height: 172px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__title {
+        /* p/16b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__textBox {
+        width: 306px;
+        /* height: 125px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    &__link {
+        text-decoration: none;
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__contacts {
+        width: 306px;
+        height: 176px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__adress {
+        width: 306px;
+        height: 95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__SaintPetersburg {
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: right;
+    }
+
+    &__Moscow {
+        /* p/14m */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 140%;
+        letter-spacing: 0.3px;
+        text-align: right;
+    }
+
+    &__contsctsText {
+        width: 306px;
+        height: 51px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__phone {
+        /* p/14b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    &__email {
+        /* p/14b--ttu-ls5 */
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: right;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@import 'services';
+@import 'contacts';
+@import 'job_openings';
+@import 'mobile';
+@import 'mobile-services';
